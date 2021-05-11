@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B446F01F264826880034F695 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446F01E264826880034F695 /* AppDelegate.swift */; };
+		B446F021264826880034F695 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446F020264826880034F695 /* SceneDelegate.swift */; };
+		B446F023264826880034F695 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446F022264826880034F695 /* ViewController.swift */; };
+		B446F026264826880034F695 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B446F024264826880034F695 /* Main.storyboard */; };
+		B446F0282648268E0034F695 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B446F0272648268E0034F695 /* Assets.xcassets */; };
+		B446F02B2648268E0034F695 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B446F0292648268E0034F695 /* LaunchScreen.storyboard */; };
+		B446F03C264834720034F695 /* Queen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B446F03B264834720034F695 /* Queen.mp3 */; };
+		B446F04326485AE40034F695 /* Макс Корж - 2 типа людей.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B446F03F26485AE30034F695 /* Макс Корж - 2 типа людей.mp3 */; };
+		B446F04426485AE40034F695 /* Нурминский - Валим.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B446F04026485AE40034F695 /* Нурминский - Валим.mp3 */; };
+		B446F04526485AE40034F695 /* Basstrologe - Somebody To Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B446F04126485AE40034F695 /* Basstrologe - Somebody To Love.mp3 */; };
+		B446F04626485AE40034F695 /* Miyagi & Andy Panda - ÐÐ°ÑÑÐ¾Ð½.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B446F04226485AE40034F695 /* Miyagi & Andy Panda - ÐÐ°ÑÑÐ¾Ð½.mp3 */; };
+		B446F04B264889060034F695 /* ShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446F04A264889060034F695 /* ShowViewController.swift */; };
+		B446F04F26488A340034F695 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446F04E26488A330034F695 /* Storage.swift */; };
+		B446F05226488F130034F695 /* CellWeb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B446F05126488F130034F695 /* CellWeb.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B446F01B264826880034F695 /* Multimedia-HomeWork-IOS-8 Kharin_ALEXEY.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multimedia-HomeWork-IOS-8 Kharin_ALEXEY.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B446F01E264826880034F695 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B446F020264826880034F695 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B446F022264826880034F695 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B446F025264826880034F695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B446F0272648268E0034F695 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B446F02A2648268E0034F695 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B446F02C2648268E0034F695 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B446F03B264834720034F695 /* Queen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Queen.mp3; sourceTree = "<group>"; };
+		B446F03F26485AE30034F695 /* Макс Корж - 2 типа людей.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Макс Корж - 2 типа людей.mp3"; sourceTree = "<group>"; };
+		B446F04026485AE40034F695 /* Нурминский - Валим.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Нурминский - Валим.mp3"; sourceTree = "<group>"; };
+		B446F04126485AE40034F695 /* Basstrologe - Somebody To Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Basstrologe - Somebody To Love.mp3"; sourceTree = "<group>"; };
+		B446F04226485AE40034F695 /* Miyagi & Andy Panda - ÐÐ°ÑÑÐ¾Ð½.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Miyagi & Andy Panda - ÐÐ°ÑÑÐ¾Ð½.mp3"; sourceTree = "<group>"; };
+		B446F04A264889060034F695 /* ShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowViewController.swift; sourceTree = "<group>"; };
+		B446F04E26488A330034F695 /* Storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		B446F05126488F130034F695 /* CellWeb.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellWeb.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B446F018264826880034F695 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B446F012264826880034F695 = {
+			isa = PBXGroup;
+			children = (
+				B446F01D264826880034F695 /* Multimedia-HomeWork-IOS-8 Kharin_ALEXEY */,
+				B446F01C264826880034F695 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B446F01C264826880034F695 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B446F01B264826880034F695 /* Multimedia-HomeWork-IOS-8 Kharin_ALEXEY.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B446F01D264826880034F695 /* Multimedia-HomeWork-IOS-8 Kharin_ALEXEY */ = {
+			isa = PBXGroup;
+			children = (
+				B446F01E264826880034F695 /* AppDelegate.swift */,
+				B446F020264826880034F695 /* SceneDelegate.swift */,
+				B446F022264826880034F695 /* ViewController.swift */,
+				B446F05126488F130034F695 /* CellWeb.swift */,
+				B446F04A264889060034F695 /* ShowViewController.swift */,
+				B446F04E26488A330034F695 /* Storage.swift */,
+				B446F048264886220034F695 /* New Group */,
+				B446F024264826880034F695 /* Main.storyboard */,
+				B446F0272648268E0034F695 /* Assets.xcassets */,
+				B446F0292648268E0034F695 /* LaunchScreen.storyboard */,
+				B446F02C2648268E0034F695 /* Info.plist */,
+			);
+			path = "Multimedia-HomeWork-IOS-8 Kharin_ALEXEY";
+			sourceTree = "<group>";
+		};
+		B446F048264886220034F695 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				B446F03B264834720034F695 /* Queen.mp3 */,
+				B446F04126485AE40034F695 /* Basstrologe - Somebody To Love.mp3 */,
+				B446F03F26485AE30034F695 /* Макс Корж - 2 типа людей.mp3 */,
+				B446F04226485AE40034F695 /* Miyagi & Andy Panda - ÐÐ°ÑÑÐ¾Ð½.mp3 */,
+				B446F04026485AE40034F695 /* Нурминский - Валим.mp3 */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B446F01A264826880034F695 /* Multimedia-HomeWork-IOS-8 Kharin_ALEXEY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B446F02F2648268E0034F695 /* Build configuration list for PBXNativeTarget "Multimedia-HomeWork-IOS-8 Kharin_ALEXEY" */;
+			buildPhases = (
+				B446F017264826880034F695 /* Sources */,
+				B446F018264826880034F695 /* Frameworks */,
+				B446F019264826880034F695 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multimedia-HomeWork-IOS-8 Kharin_ALEXEY";
+			productName = "Multimedia-HomeWork-IOS-8 Kharin_ALEXEY";
+			productReference = B446F01B264826880034F695 /* Multimedia-HomeWork-IOS-8 Kharin_ALEXEY.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B446F013264826880034F695 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					B446F01A264826880034F695 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = B446F016264826880034F695 /* Build configuration list for PBXProject "Multimedia-HomeWork-IOS-8 Kharin_ALEXEY" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B446F012264826880034F695;
+			productRefGroup = B446F01C264826880034F695 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B446F01A264826880034F695 /* Multimedia-HomeWork-IOS-8 Kharin_ALEXEY */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B446F019264826880034F695 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B446F02B2648268E0034F695 /* LaunchScreen.storyboard in Resources */,
+				B446F0282648268E0034F695 /* Assets.xcassets in Resources */,
+				B446F03C264834720034F695 /* Queen.mp3 in Resources */,
+				B446F04426485AE40034F695 /* Нурминский - Валим.mp3 in Resources */,
+				B446F04326485AE40034F695 /* Макс Корж - 2 типа людей.mp3 in Resources */,
+				B446F026264826880034F695 /* Main.storyboard in Resources */,
+				B446F04526485AE40034F695 /* Basstrologe - Somebody To Love.mp3 in Resources */,
+				B446F04626485AE40034F695 /* Miyagi & Andy Panda - ÐÐ°ÑÑÐ¾Ð½.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B446F017264826880034F695 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B446F05226488F130034F695 /* CellWeb.swift in Sources */,
+				B446F023264826880034F695 /* ViewController.swift in Sources */,
+				B446F01F264826880034F695 /* AppDelegate.swift in Sources */,
+				B446F021264826880034F695 /* SceneDelegate.swift in Sources */,
+				B446F04B264889060034F695 /* ShowViewController.swift in Sources */,
+				B446F04F26488A340034F695 /* Storage.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B446F024264826880034F695 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B446F025264826880034F695 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B446F0292648268E0034F695 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B446F02A2648268E0034F695 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B446F02D2648268E0034F695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B446F02E2648268E0034F695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B446F0302648268E0034F695 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Multimedia-HomeWork-IOS-8 Kharin_ALEXEY/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Alexey-Kharin.Multimedia-HomeWork-IOS-8-Kharin-ALEXEY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B446F0312648268E0034F695 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Multimedia-HomeWork-IOS-8 Kharin_ALEXEY/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Alexey-Kharin.Multimedia-HomeWork-IOS-8-Kharin-ALEXEY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B446F016264826880034F695 /* Build configuration list for PBXProject "Multimedia-HomeWork-IOS-8 Kharin_ALEXEY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B446F02D2648268E0034F695 /* Debug */,
+				B446F02E2648268E0034F695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B446F02F2648268E0034F695 /* Build configuration list for PBXNativeTarget "Multimedia-HomeWork-IOS-8 Kharin_ALEXEY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B446F0302648268E0034F695 /* Debug */,
+				B446F0312648268E0034F695 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B446F013264826880034F695 /* Project object */;
+}
